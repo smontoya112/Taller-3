@@ -1,0 +1,32 @@
+{
+  "aerolinea": [
+      {
+        "nombre": "Boeing 737",
+        "capacidad": 180,
+      },
+      {
+        "nombre": "Airbus A320",
+        "capacidad": 150,
+      },
+      {
+        "nombre": "Boeing 777",
+        "capacidad": 300,
+      }
+    ],
+    "vuelos": [
+      {
+        "fecha": "2024-01-15",
+        "avion": {
+		"nombre": "Boeing 777",
+		"capacidad": 300,
+		},
+        "ruta": {
+        "id": "R001",
+        "origen": "Bogotá",
+        "destino": "Nueva York",
+        "duracion": "4h 30m"
+		}
+      }
+    ]
+	}
+}
